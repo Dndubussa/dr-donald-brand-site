@@ -43,20 +43,20 @@ const Testimonials = () => {
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-accent font-bold uppercase tracking-[0.3em] text-sm mb-6">Patient Stories</h2>
-            <h1 className="text-5xl md:text-7xl font-serif font-bold text-primary mb-8 leading-tight">
+            <h1 className="text-4xl md:text-6xl font-serif font-bold text-primary mb-8 leading-tight">
               Real Stories, <br />
               <span className="text-accent italic font-normal">Real Results</span>
             </h1>
-            <p className="text-foreground/60 text-lg leading-relaxed mb-10">
+            <p className="text-foreground/60 text-base leading-relaxed mb-10">
               Read about the experiences of our patients and the life-changing results achieved through Dr. Donald's personalized surgical care.
             </p>
             <div className="flex flex-wrap justify-center gap-12 pt-4 border-t border-primary/5">
                 <div className="flex flex-col">
-                  <span className="text-4xl font-serif text-primary font-bold">500+</span>
+                  <span className="text-3xl font-serif text-primary font-bold">500+</span>
                   <span className="text-xs uppercase tracking-widest text-foreground/40 font-bold">Happy Patients</span>
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-4xl font-serif text-primary font-bold">4.9/5</span>
+                  <span className="text-3xl font-serif text-primary font-bold">4.9/5</span>
                   <div className="flex space-x-1 mb-1">
                     {[1, 2, 3, 4, 5].map(s => <Star key={s} size={14} fill="currentColor" className="text-yellow-500" />)}
                   </div>
@@ -91,7 +91,7 @@ const Testimonials = () => {
                         <Star key={i} size={20} fill="currentColor" className="text-yellow-500" />
                       ))}
                     </div>
-                    <p className="text-xl md:text-2xl font-serif italic text-primary leading-relaxed mb-10 flex-1 relative z-10">
+                    <p className="text-lg md:text-xl font-serif italic text-primary leading-relaxed mb-10 flex-1 relative z-10">
                       "{test.quote}"
                     </p>
                     <div className="flex items-center space-x-4 relative z-10">
@@ -119,12 +119,12 @@ const Testimonials = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-sm font-bold uppercase tracking-widest text-accent mb-4">Patient Perspectives</h2>
-              <h3 className="text-4xl md:text-5xl font-serif font-bold mb-8">Video Testimonials</h3>
-              <p className="text-white/60 text-lg leading-relaxed mb-10">
+              <h3 className="text-3xl md:text-4xl font-serif font-bold mb-8">Video Testimonials</h3>
+              <p className="text-white/60 text-base leading-relaxed mb-10">
                 Sometimes the best way to understand the patient journey is to hear it directly from them. Watch our patient stories to learn about their motivations, experiences, and outcomes.
               </p>
               <Link to="/consultation">
-                <Button className="rounded-full bg-accent hover:bg-accent/90 text-white px-10 py-7 text-lg font-bold group">
+                <Button className="rounded-full bg-accent hover:bg-accent/90 text-white px-10 py-6 text-base font-bold group">
                   Start Your Own Journey
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
@@ -146,20 +146,20 @@ const Testimonials = () => {
       <section className="py-24 bg-background">
         <div className="container mx-auto px-4 md:px-6 text-center max-w-4xl">
           <MessageSquare className="text-accent mx-auto mb-8" size={48} />
-          <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary mb-8 leading-tight">
+          <h2 className="text-2xl md:text-4xl font-serif font-bold text-primary mb-8 leading-tight">
             We'd love to help you achieve <br /> your aesthetic goals.
           </h2>
-          <p className="text-foreground/60 text-lg mb-12">
+          <p className="text-foreground/60 text-base mb-12">
             Every transformation begins with a single conversation. Schedule your private consultation today and discover what's possible.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <Link to="/consultation">
-              <Button size="lg" className="rounded-full bg-primary hover:bg-primary/90 px-10 py-7 text-lg w-full sm:w-auto">
+              <Button size="lg" className="rounded-full bg-primary hover:bg-primary/90 px-10 py-6 text-base w-full sm:w-auto">
                 Book Consultation
               </Button>
             </Link>
             <a href="https://wa.me/+255123456789" className="w-full sm:w-auto">
-              <Button size="lg" variant="outline" className="rounded-full border-primary/20 px-10 py-7 text-lg w-full">
+              <Button size="lg" variant="outline" className="rounded-full border-primary/20 px-10 py-6 text-base w-full">
                 Chat on WhatsApp
               </Button>
             </a>

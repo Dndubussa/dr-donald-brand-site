@@ -44,11 +44,11 @@ const Blog = () => {
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl">
             <h2 className="text-accent font-bold uppercase tracking-[0.3em] text-sm mb-6">Patient Education</h2>
-            <h1 className="text-5xl md:text-7xl font-serif font-bold mb-8 leading-tight">
+            <h1 className="text-4xl md:text-6xl font-serif font-bold mb-8 leading-tight">
               Medical Insights & <br />
               <span className="text-accent italic font-normal">Aesthetic Wisdom</span>
             </h1>
-            <p className="text-white/60 text-lg leading-relaxed max-w-2xl">
+            <p className="text-white/60 text-base leading-relaxed max-w-2xl">
               Stay informed about the latest trends, recovery tips, and safety protocols in the world of plastic and cosmetic surgery.
             </p>
           </div>
@@ -128,8 +128,8 @@ const Blog = () => {
         <div className="container mx-auto px-4 md:px-6">
           <div className="bg-background rounded-[2.5rem] p-12 md:p-20 shadow-xl max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="md:w-1/2">
-              <h3 className="text-3xl font-serif font-bold text-primary mb-4 text-balance">Get Aesthetic Insights Delivered to Your Inbox</h3>
-              <p className="text-foreground/60 leading-relaxed">Join our patient community and receive monthly tips on aesthetic health and wellness.</p>
+              <h3 className="text-2xl font-serif font-bold text-primary mb-4 text-balance">Get Aesthetic Insights Delivered to Your Inbox</h3>
+              <p className="text-foreground/60 leading-relaxed text-sm">Join our patient community and receive monthly tips on aesthetic health and wellness.</p>
             </div>
             <div className="md:w-1/2 w-full flex flex-col sm:flex-row gap-4">
               <input 

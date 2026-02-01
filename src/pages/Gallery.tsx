@@ -34,8 +34,8 @@ const Gallery = () => {
       <section className="bg-secondary/30 py-20">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-5xl md:text-6xl font-serif font-bold text-primary mb-6">Before & After Gallery</h1>
-            <p className="text-foreground/60 text-lg leading-relaxed mb-8">
+            <h1 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-6">Before & After Gallery</h1>
+            <p className="text-foreground/60 text-base leading-relaxed mb-8">
               Explore the surgical excellence of Dr. Donald through our gallery of real patient results. 
               Our focus is always on creating natural-looking, harmonious transformations.
             </p>
@@ -115,8 +115,8 @@ const Gallery = () => {
       {/* CTA */}
       <section className="py-24 bg-primary text-white text-center">
         <div className="container mx-auto px-4 md:px-6">
-          <h2 className="text-3xl md:text-5xl font-serif font-bold mb-8">Ready to achieve your goals?</h2>
-          <Button size="lg" className="rounded-full bg-accent hover:bg-accent/90 px-10 py-7 text-lg font-bold">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-8">Ready to achieve your goals?</h2>
+          <Button size="lg" className="rounded-full bg-accent hover:bg-accent/90 px-10 py-6 text-base font-bold">
             Schedule a Private Consultation
           </Button>
         </div>

@@ -51,11 +51,11 @@ const Consultation = () => {
                 transition={{ duration: 0.6 }}
               >
                 <h2 className="text-accent font-bold uppercase tracking-[0.3em] text-sm mb-6">Take the first step</h2>
-                <h1 className="text-5xl md:text-7xl font-serif font-bold text-primary mb-8 leading-tight">
+                <h1 className="text-4xl md:text-6xl font-serif font-bold text-primary mb-8 leading-tight">
                   Start Your <br />
                   <span className="text-accent italic font-normal">Aesthetic Journey</span>
                 </h1>
-                <p className="text-foreground/60 text-lg leading-relaxed mb-10 text-balance">
+                <p className="text-foreground/60 text-base leading-relaxed mb-10 text-balance">
                   Schedule a private consultation with Dr. Donald in Dar es Salaam. We'll discuss your goals, answer your questions, and design a personalized treatment plan for you.
                 </p>
                 
@@ -143,7 +143,7 @@ const Consultation = () => {
                   </div>
                   <Button 
                     type="submit" 
-                    className="w-full bg-primary hover:bg-primary/90 text-white rounded-full py-8 text-lg font-bold group"
+                    className="w-full bg-primary hover:bg-primary/90 text-white rounded-full py-6 text-base font-bold group"
                     disabled={loading}
                   >
                     {loading ? 'Sending...' : 'Submit Request'}
@@ -166,7 +166,7 @@ const Consultation = () => {
       <section className="py-24 bg-background">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-serif font-bold text-primary mb-4">Other Ways to Connect</h2>
+            <h2 className="text-2xl font-serif font-bold text-primary mb-4">Other Ways to Connect</h2>
             <div className="w-20 h-1 bg-accent mx-auto" />
           </div>
 

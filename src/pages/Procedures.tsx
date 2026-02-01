@@ -47,8 +47,8 @@ const Procedures = () => {
       <section className="bg-secondary/20 py-20">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-6xl font-serif font-bold text-primary mb-6">Expert Procedures</h1>
-            <p className="text-foreground/60 text-lg leading-relaxed mb-10">
+            <h1 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-6">Expert Procedures</h1>
+            <p className="text-foreground/60 text-base leading-relaxed mb-10">
               Discover our range of surgical and non-surgical aesthetic treatments, performed with the highest level of care and precision in Dar es Salaam.
             </p>
             <div className="relative max-w-md">
@@ -126,12 +126,12 @@ const Procedures = () => {
       <section className="py-24 bg-secondary/20">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
-             <h2 className="text-3xl font-serif font-bold text-primary mb-6">Not sure which procedure is right for you?</h2>
-             <p className="text-foreground/60 text-lg mb-10">
+             <h2 className="text-2xl font-serif font-bold text-primary mb-6">Not sure which procedure is right for you?</h2>
+             <p className="text-foreground/60 text-base mb-10">
                Every patient is unique. During your consultation, Dr. Donald will listen to your concerns and provide professional guidance on the best path forward for your goals.
              </p>
              <Link to="/consultation">
-               <Button className="rounded-full bg-accent hover:bg-accent/90 px-10 py-7 text-lg">
+               <Button className="rounded-full bg-accent hover:bg-accent/90 px-10 py-6 text-base">
                  Book a Consultation
                </Button>
              </Link>

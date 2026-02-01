@@ -25,20 +25,20 @@ const About = () => {
                 transition={{ duration: 0.6 }}
               >
                 <h2 className="text-sm font-bold uppercase tracking-widest text-accent mb-4">The Surgeon</h2>
-                <h1 className="text-5xl md:text-6xl font-serif font-bold tracking-tight text-primary mb-8 leading-tight">
+                <h1 className="text-4xl md:text-5xl font-serif font-bold tracking-tight text-primary mb-8 leading-tight">
                   Driven by Precision, <br />
                   Inspired by <span className="text-accent italic font-normal">Transformation</span>
                 </h1>
-                <p className="text-foreground/70 text-lg leading-relaxed mb-8">
+                <p className="text-foreground/70 text-base leading-relaxed mb-8">
                   Dr. Donald is a board-certified plastic and cosmetic surgeon with over 15 years of experience delivering exceptional surgical care. Based in Dar es Salaam, he has dedicated his career to helping patients achieve their aesthetic goals through safe, world-class procedures.
                 </p>
                 <div className="grid grid-cols-2 gap-8 mb-10">
                   <div className="flex flex-col">
-                    <span className="text-3xl font-serif text-primary font-bold">15+</span>
+                    <span className="text-2xl font-serif text-primary font-bold">15+</span>
                     <span className="text-xs uppercase tracking-widest text-foreground/50 font-bold">Years Experience</span>
                   </div>
                    <div className="flex flex-col">
-                    <span className="text-3xl font-serif text-primary font-bold">2,000+</span>
+                    <span className="text-2xl font-serif text-primary font-bold">2,000+</span>
                     <span className="text-xs uppercase tracking-widest text-foreground/50 font-bold">Successful Surgeries</span>
                   </div>
                 </div>
@@ -68,8 +68,8 @@ const About = () => {
       <section className="py-24 bg-background">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-6">Philosophy of Care</h2>
-            <p className="text-foreground/60 text-lg leading-relaxed">
+            <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary mb-6">Philosophy of Care</h2>
+            <p className="text-foreground/60 text-base leading-relaxed">
               "Plastic surgery is not about changing who you are, but about revealing the best version of yourself. My approach combines surgical artistry with medical integrity to ensure that every patient feels confident, safe, and truly cared for."
             </p>
           </div>
@@ -105,7 +105,7 @@ const About = () => {
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-8">Professional Excellence</h2>
+              <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary mb-8">Professional Excellence</h2>
               <div className="space-y-6">
                 {certifications.map((cert, i) => (
                   <motion.div
@@ -116,7 +116,7 @@ const About = () => {
                     transition={{ delay: i * 0.1 }}
                     className="flex items-start space-x-6 bg-background p-6 rounded-2xl border border-border shadow-sm"
                   >
-                    <div className="text-accent font-serif font-bold text-xl">{cert.year}</div>
+                    <div className="text-accent font-serif font-bold text-lg">{cert.year}</div>
                     <div>
                       <h4 className="font-bold text-primary">{cert.title}</h4>
                       <p className="text-foreground/50 text-sm">{cert.institution}</p>
@@ -147,17 +147,17 @@ const About = () => {
       {/* Reassurance Footer */}
       <section className="py-24 bg-background text-center">
         <div className="container mx-auto px-4 md:px-6">
-          <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary mb-8 tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-8 tracking-tight">
             Ready to start your journey?
           </h2>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link to="/consultation">
-              <Button size="lg" className="rounded-full bg-primary hover:bg-primary/90 px-10 py-7 text-lg">
+              <Button size="lg" className="rounded-full bg-primary hover:bg-primary/90 px-10 py-6 text-base">
                 Request Consultation
               </Button>
             </Link>
             <Link to="/gallery">
-              <Button size="lg" variant="outline" className="rounded-full border-primary/20 px-10 py-7 text-lg">
+              <Button size="lg" variant="outline" className="rounded-full border-primary/20 px-10 py-6 text-base">
                 View Results Gallery
               </Button>
             </Link>

@@ -42,7 +42,7 @@ const ProceduresPreview = () => {
         <div className="flex flex-col md:flex-row justify-between items-end mb-16">
           <div className="max-w-2xl">
             <h2 className="text-sm font-bold uppercase tracking-widest text-accent mb-4">Popular Procedures</h2>
-            <h3 className="text-4xl md:text-5xl font-serif font-bold tracking-tight text-primary">
+            <h3 className="text-3xl md:text-4xl font-serif font-bold tracking-tight text-primary">
               Transformative Care Tailored to Your Unique Beauty
             </h3>
           </div>
@@ -77,7 +77,7 @@ const ProceduresPreview = () => {
                     </div>
                   </div>
                   <div className="p-6 flex-1 flex flex-col">
-                    <h4 className="text-xl font-serif font-bold text-primary mb-3 group-hover:text-accent transition-colors">
+                    <h4 className="text-lg font-serif font-bold text-primary mb-3 group-hover:text-accent transition-colors">
                       {proc.title}
                     </h4>
                     <p className="text-foreground/60 text-sm leading-relaxed mb-6 flex-1">

@@ -88,10 +88,10 @@ const ProcedureDetail = () => {
               <ArrowLeft size={16} className="group-hover:-translate-x-1 transition-transform" />
               <span>Back to Procedures</span>
             </Link>
-            <h1 className="text-5xl md:text-7xl font-serif font-bold text-white mb-6 leading-tight">
+            <h1 className="text-4xl md:text-6xl font-serif font-bold text-white mb-6 leading-tight">
               {procedure.title}
             </h1>
-            <p className="text-white/80 text-lg md:text-xl leading-relaxed max-w-2xl">
+            <p className="text-white/80 text-base md:text-lg leading-relaxed max-w-2xl">
               {procedure.description}
             </p>
           </motion.div>
@@ -111,7 +111,7 @@ const ProcedureDetail = () => {
                   </span>
                   Who it's for
                 </h2>
-                <p className="text-foreground/70 text-lg leading-relaxed">
+                <p className="text-foreground/70 text-base leading-relaxed">
                   {procedure.who_its_for || "Contact us for more information on candidacy for this procedure."}
                 </p>
               </div>

@@ -47,7 +47,7 @@ const Highlights = () => {
             {/* Background decorative square */}
             <div className="absolute -top-6 -left-6 w-full h-full border-2 border-accent/20 rounded-2xl -z-0" />
             <div className="absolute -bottom-10 -right-10 bg-primary p-8 rounded-xl shadow-xl z-20 hidden md:block max-w-xs">
-              <p className="text-white text-lg font-serif italic mb-2">
+              <p className="text-white text-base font-serif italic mb-2">
                 "My mission is to deliver world-class surgical excellence right here in Dar es Salaam."
               </p>
               <div className="w-12 h-0.5 bg-accent mb-2" />
@@ -59,10 +59,10 @@ const Highlights = () => {
 
           <div>
             <h2 className="text-sm font-bold uppercase tracking-widest text-accent mb-4">Why Choose Dr. Donald</h2>
-            <h3 className="text-4xl md:text-5xl font-serif font-bold tracking-tight text-primary mb-8 leading-tight">
+            <h3 className="text-3xl md:text-4xl font-serif font-bold tracking-tight text-primary mb-8 leading-tight">
               Surgical Excellence Meets Compassionate Care
             </h3>
-            <p className="text-foreground/70 mb-12 text-lg leading-relaxed">
+            <p className="text-foreground/70 mb-12 text-base leading-relaxed">
               Dr. Donald brings years of international training and hundreds of successful procedures to Tanzania. We believe that every patient deserves a personalized experience that prioritizes their safety, comfort, and ultimate aesthetic goals.
             </p>
 
@@ -77,7 +77,7 @@ const Highlights = () => {
                   className="flex flex-col space-y-3"
                 >
                   <div className="mb-1">{item.icon}</div>
-                  <h4 className="text-xl font-serif font-bold text-primary">{item.title}</h4>
+                  <h4 className="text-lg font-serif font-bold text-primary">{item.title}</h4>
                   <p className="text-foreground/60 text-sm leading-relaxed">{item.description}</p>
                 </motion.div>
               ))}

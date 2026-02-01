@@ -11,11 +11,11 @@ const Contact = () => {
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <div className="max-w-3xl">
             <h2 className="text-accent font-bold uppercase tracking-[0.3em] text-sm mb-6">Contact Us</h2>
-            <h1 className="text-5xl md:text-7xl font-serif font-bold mb-8 leading-tight">
+            <h1 className="text-4xl md:text-6xl font-serif font-bold mb-8 leading-tight">
               We're Here to <br />
               <span className="text-accent italic font-normal">Welcome You</span>
             </h1>
-            <p className="text-white/60 text-lg leading-relaxed max-w-2xl">
+            <p className="text-white/60 text-base leading-relaxed max-w-2xl">
               Visit our premium clinic in Dar es Salaam or reach out to us through our various communication channels. We look forward to being part of your transformation.
             </p>
           </div>
@@ -128,7 +128,7 @@ const Contact = () => {
               For urgent inquiries or to reschedule an existing appointment, the fastest way to reach our patient care team is via WhatsApp.
             </p>
             <a href="https://wa.me/+255123456789" target="_blank" rel="noopener noreferrer">
-              <Button size="lg" className="rounded-full bg-[#25D366] hover:bg-[#20ba59] text-white px-10 py-7 text-lg font-bold shadow-lg shadow-green-500/20">
+              <Button size="lg" className="rounded-full bg-[#25D366] hover:bg-[#20ba59] text-white px-10 py-6 text-base font-bold shadow-lg shadow-green-500/20">
                 <MessageCircle size={24} className="mr-2" />
                 Connect on WhatsApp
               </Button>
