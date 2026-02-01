@@ -10,7 +10,7 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://v3b.fal.media/files/b/0a8c9e1d/Blbfi4uErgR0cd2QfqBLy.png"
+          src="https://v3b.fal.media/files/b/0a8cb7d0/y_qqocGeZkNG75dZHuKs0.png"
           alt="Luxury Clinic"
           className="w-full h-full object-cover"
         />

@@ -8,6 +8,12 @@ import { motion } from 'framer-motion';
 import { Star, Shield, Award, Users, ArrowRight } from 'lucide-react';
 
 const Home = () => {
+  const galleryImages = [
+    'https://v3b.fal.media/files/b/0a8cb7d0/kLJ8UNLlgQu_KIMYbwM_I.png',
+    'https://v3b.fal.media/files/b/0a8cb7d0/l4QatJy-HWyWe3xvikX26.png',
+    'https://v3b.fal.media/files/b/0a8cb7d1/we1oRsj_X1jcpB5Xx2iXz.png'
+  ];
+
   return (
     <div className="overflow-hidden">
       <Hero />
@@ -29,7 +35,7 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((i) => (
+            {galleryImages.map((img, i) => (
               <motion.div
                 key={i}
                 initial={{ opacity: 0, scale: 0.95 }}
@@ -39,7 +45,7 @@ const Home = () => {
                 className="group relative aspect-[3/4] overflow-hidden rounded-2xl shadow-lg"
               >
                 <img
-                  src={`https://images.unsplash.com/photo-${1580000000000 + i}?auto=format&fit=crop&q=80&w=800`}
+                  src={img}
                   alt={`Gallery ${i}`}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />

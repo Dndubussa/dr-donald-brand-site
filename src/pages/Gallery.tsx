@@ -13,12 +13,12 @@ const categories = [
 ];
 
 const galleryItems = [
-  { id: 1, title: 'Rhinoplasty', category: 'face', image: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc2069?auto=format&fit=crop&q=80&w=800' },
-  { id: 2, title: 'Liposuction', category: 'body', image: 'https://images.unsplash.com/photo-1598449356475-b9f71db7d847?auto=format&fit=crop&q=80&w=800' },
-  { id: 3, title: 'Breast Augmentation', category: 'breast', image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800' },
-  { id: 4, title: 'Facelift', category: 'face', image: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc2069?auto=format&fit=crop&q=80&w=800' },
-  { id: 5, title: 'Tummy Tuck', category: 'body', image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800' },
-  { id: 6, title: 'Scar Revision', category: 'reconstructive', image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=800' }
+  { id: 1, title: 'Rhinoplasty', category: 'face', image: 'https://v3b.fal.media/files/b/0a8cb7d0/kLJ8UNLlgQu_KIMYbwM_I.png' },
+  { id: 2, title: 'Liposuction', category: 'body', image: 'https://v3b.fal.media/files/b/0a8cb7d0/l4QatJy-HWyWe3xvikX26.png' },
+  { id: 3, title: 'Breast Augmentation', category: 'breast', image: 'https://v3b.fal.media/files/b/0a8cb7d1/we1oRsj_X1jcpB5Xx2iXz.png' },
+  { id: 4, title: 'Facelift', category: 'face', image: 'https://v3b.fal.media/files/b/0a8cb7d0/wNGpfl3f5ekHAcXAQT9ZF.png' },
+  { id: 5, title: 'Tummy Tuck', category: 'body', image: 'https://v3b.fal.media/files/b/0a8cb7d0/l4QatJy-HWyWe3xvikX26.png' },
+  { id: 6, title: 'Scar Revision', category: 'reconstructive', image: 'https://v3b.fal.media/files/b/0a8cb7d0/dr1DdIqCQIjm6yFWL8bkl.png' }
 ];
 
 const Gallery = () => {

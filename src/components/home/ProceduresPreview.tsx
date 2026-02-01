@@ -10,28 +10,28 @@ const procedures = [
     slug: 'rhinoplasty',
     icon: <Scissors className="w-6 h-6" />,
     description: 'Refining nasal aesthetics and improving breathing functionality.',
-    image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=800'
+    image: 'https://v3b.fal.media/files/b/0a8cb7d0/kLJ8UNLlgQu_KIMYbwM_I.png'
   },
   {
     title: 'Liposuction',
     slug: 'liposuction',
     icon: <Ruler className="w-6 h-6" />,
     description: 'Precision body contouring to remove persistent fat deposits.',
-    image: 'https://images.unsplash.com/photo-1598449356475-b9f71db7d847?auto=format&fit=crop&q=80&w=800'
+    image: 'https://v3b.fal.media/files/b/0a8cb7d0/l4QatJy-HWyWe3xvikX26.png'
   },
   {
     title: 'Facelift',
     slug: 'facelift',
     icon: <User className="w-6 h-6" />,
     description: 'Restoring youthful facial definition and reducing sagging skin.',
-    image: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc2069?auto=format&fit=crop&q=80&w=800'
+    image: 'https://v3b.fal.media/files/b/0a8cb7d0/wNGpfl3f5ekHAcXAQT9ZF.png'
   },
   {
     title: 'Breast Augmentation',
     slug: 'breast-augmentation',
     icon: <Star className="w-6 h-6" />,
     description: 'Enhancing volume and symmetry for a balanced, aesthetic silhouette.',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800'
+    image: 'https://v3b.fal.media/files/b/0a8cb7d1/we1oRsj_X1jcpB5Xx2iXz.png'
   }
 ];
 

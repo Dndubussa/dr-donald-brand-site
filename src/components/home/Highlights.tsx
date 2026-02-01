@@ -39,7 +39,7 @@ const Highlights = () => {
           >
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl relative z-10">
               <img
-                src="https://v3b.fal.media/files/b/0a8c9e1e/AshyA4aJgDvrIL26HPyHt.png"
+                src="https://v3b.fal.media/files/b/0a8cb7d0/dr1DdIqCQIjm6yFWL8bkl.png"
                 alt="Dr. Donald Professional Portrait"
                 className="w-full h-full object-cover"
               />

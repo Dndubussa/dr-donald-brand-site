@@ -52,7 +52,7 @@ const About = () => {
                 className="relative z-10 aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl"
               >
                 <img
-                  src="https://v3b.fal.media/files/b/0a8c9e1e/AshyA4aJgDvrIL26HPyHt.png"
+                  src="https://v3b.fal.media/files/b/0a8cb7d0/dr1DdIqCQIjm6yFWL8bkl.png"
                   alt="Dr. Donald"
                   className="w-full h-full object-cover"
                 />
